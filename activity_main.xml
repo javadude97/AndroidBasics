@@ -4,36 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.happpybirthday.MainActivity">
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="UDACITY!"
+        android:layout_alignParentStart="true"
+        android:textSize="48sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="cursive"
+        android:paddingLeft="96dp"
+        android:paddingTop="48dp" />
 
     <ImageView
         android:id="@+id/photo_image_view"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/confetti"
-        android:scaleType="centerCrop" />
+        android:src="@drawable/knowledgeispower"
+        android:scaleType="fitCenter" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Happpy Birthday, Tas!"
+        android:layout_weight="1"
+        android:text="Udacity"
         android:fontFamily="sans-serif-light"
-        android:textSize="36sp"
-        android:padding="20dp"
-        android:textColor="@android:color/white" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="From Sadath"
-        android:fontFamily="sans-serif-light"
-        android:textSize="36sp"
-        android:padding="20dp"
-        android:textColor="@android:color/white"
-        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:paddingTop="0dp"
+        android:paddingBottom="84dp"
+        android:paddingLeft="120dp"
+        android:paddingRight="60dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:scaleType="fitCenter"/>
+        android:layout_alignBottom="@id/photo_image_view"
+        android:textColor="@android:color/holo_blue_bright"
+        android:scaleType="center"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="2465 Latham St."
+        android:fontFamily="sans-serif-light"
+        android:textSize="24sp"
+        android:paddingTop="40dp"
+        android:paddingBottom="56dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="72dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_alignBottom="@id/photo_image_view"
+        android:layout_alignParentBottom="true"
+        android:scaleType="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mountain View, CA 94043"
+        android:fontFamily="sans-serif-light"
+        android:textSize="24sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="24dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="72dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_alignBottom="@id/photo_image_view"
+        android:layout_alignParentBottom="true"
+        android:scaleType="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="650-555-5555"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="104dp"
+        android:paddingRight="20dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@id/photo_image_view"
+        android:scaleType="center"/>
 
 </RelativeLayout>
