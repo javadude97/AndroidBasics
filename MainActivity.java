@@ -1,4 +1,4 @@
-package com.example.android.happpybirthday;
+package com.example.android.helloandroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
